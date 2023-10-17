@@ -1,4 +1,4 @@
-###### #############################
+![image](https://github.com/sch0w/Agri-robot-cGAN-shadow-remover/assets/58224865/bf265ee4-226a-4e1c-8c3c-6d2f78f176a4)###### #############################
 ###  Shadow Remover              ###
 ###  Author: Sean Joseph Chow    ###
 ###  Version: 3.0                ###
@@ -58,15 +58,10 @@ training. However, this method did not yield enhanced outcomes.
 
 3) frame_sample_and_metrics.ipynb # This handles the sampling of images from the output video, then outputs a table and graph for evaluation metrics. Extracted images are saved in the folder img_extract
 
-### Videos Output
+### Database
 
-# Input (root location)
-shadow_input.mp4
-
-# Output (root location)
-no_shadow_output_v8.mp4
-
-second_step_output.mp4
+The provided output video is the result from training the  Image Shadow Triplets dataset (ISTD)[https://paperswithcode.com/dataset/istd] and a proprietary
+ agricultural-focused dataset that can be provided for reference under request, though it is suggested to subsitude this with a custom dataset to your specific needs(weather/terrian etc) 
 
 
 
